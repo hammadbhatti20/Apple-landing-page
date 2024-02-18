@@ -1,0 +1,14 @@
+nav {
+    background-color: #000000;
+    color: #818181;
+    height: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 14px;
+}
