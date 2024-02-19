@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+}
+
 nav {
     background-color: #000000;
     color: #818181;
@@ -9,6 +19,12 @@ ul {
     display: flex;
     gap: 30px;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 15px;
     font-size: 14px;
+}
+
+.prdct1-detail-position {
+    position: absolute;
+    top: 90px;
+    right: 500px;
 }
