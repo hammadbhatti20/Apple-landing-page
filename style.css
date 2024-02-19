@@ -14,7 +14,7 @@ nav {
     height: 50px;
 }
 
-ul {
+.nav {
     list-style: none;
     display: flex;
     gap: 30px;
@@ -23,8 +23,22 @@ ul {
     font-size: 14px;
 }
 
+ul {
+    list-style:none ;
+}
+
 .prdct1-detail-position {
     position: absolute;
     top: 90px;
+    right: 500px;
+}
+
+.prdct3-detail-position-main {
+    position: relative;
+}
+
+.prdct3-detail-position {
+    position: absolute;
+    top: 550px;
     right: 500px;
 }
