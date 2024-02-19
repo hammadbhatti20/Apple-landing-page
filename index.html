@@ -16,7 +16,7 @@
     <header>
         <!-- NAVBAR START -->
         <nav>
-            <ul class=" nav pb-3" style="background-color: black; position: fixed ; width: 100%; z-index: 999;">
+            <ul class=" nav pt-3 pb-3" style="background-color: black; position: fixed ; width: 100%; z-index: 999;">
                 <li><i style="color: white; font-size: 18px;" class="fa-brands fa-apple"></i></li>
                 <li>Store</li>
                 <li>Mac</li>
@@ -157,8 +157,28 @@
       <!-- PRODUCT CARD 3 SEC END -->
 
       <!-- PRODUCT CAROUSAL SEC START -->
-      <section>
-        
+      <section class="container-fluid">
+        <div id="carouselExample" class="carousel slide w-100">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/carusl-img1.jpg"  class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carusl-img2.jpg"  class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carusl-img3.jpg"  class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </section>
       <!-- PRODUCT CAROUSAL SEC END -->
 
